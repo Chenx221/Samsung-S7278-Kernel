@@ -1,3 +1,6 @@
+export CROSS_COMPILE=../gcc-arm-none-eabi-4_6-2012q4/bin/arm-none-eabi-gcc
+export ARCH=arm
+export USE_SEC_FIPS_MODE=true
 #
 #  Copyright (C) 2011, Red Bend Ltd.
 #
@@ -213,7 +216,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 #ARCH		?= $(SUBARCH)
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 ARCH             =arm
-CROSS_COMPILE    = /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-
+CROSS_COMPILE    = ../gcc-arm-none-eabi-4_6-2012q4/bin/arm-none-eabi-gcc
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
@@ -1588,6 +1591,4 @@ FORCE:
 # information in a variable so we can use it in if_changed and friends.
 .PHONY: $(PHONY)
 
-export CROSS_COMPILE=../gcc-arm-none-eabi-4_6-2012q4/bin/arm-none-eabi-gcc
-export ARCH=arm
-export USE_SEC_FIPS_MODE=true
+
