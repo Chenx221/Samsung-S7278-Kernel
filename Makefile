@@ -1588,6 +1588,6 @@ FORCE:
 # information in a variable so we can use it in if_changed and friends.
 .PHONY: $(PHONY)
 
-export CROSS_COMPILE=../gcc-arm-none-eabi-4_6-2012q4/bin/arm-eabi-
+export CROSS_COMPILE=/opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-
 export ARCH=arm
 export USE_SEC_FIPS_MODE=true
