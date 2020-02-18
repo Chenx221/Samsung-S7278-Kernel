@@ -216,7 +216,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 #ARCH		?= $(SUBARCH)
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 ARCH             =arm
-CROSS_COMPILE    = ../gcc-arm-none-eabi-4_6-2012q4/bin/arm-none-eabi-gcc
+CROSS_COMPILE    =/home/appveyor/projects/samsung-s7278-kernel/gcc-arm-none-eabi-4_6-2012q4/bin/arm-none-eabi-gcc
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
