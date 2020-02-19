@@ -1,4 +1,6 @@
-	Linux kernel release 3.x <http://kernel.org/>
+[![Build status](https://ci.appveyor.com/api/projects/status/ufcd2db0moe3och0?svg=true)](https://ci.appveyor.com/project/Chenx221/samsung-s7278-kernel)
+
+Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
 as they tell you what this is all about, explain how to install the
